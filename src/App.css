@@ -1,0 +1,5 @@
+/* App-level layout helpers (most styles in index.css) */
+.App {
+    min-height: 100vh;
+    background: hsl(var(--background));
+}
