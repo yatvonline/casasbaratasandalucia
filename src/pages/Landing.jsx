@@ -613,4 +613,13 @@ export default function Landing() {
       </Dialog>
     </main>
   );
-}
+}const adminAccess = () => {
+  const password = prompt("Introduce contraseña admin");
+
+  if (password === "casasadmin2026") {
+    alert("Acceso concedido");
+    window.location.href = "/admin";
+  } else {
+    alert("Contraseña incorrecta");
+  }
+};
