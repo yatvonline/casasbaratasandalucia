@@ -142,7 +142,14 @@ export default function Landing() {
       setTimeout(() => { setCopied(false); setHeroCopied(false); }, 1800);
     }
   };
-
+const viviendas = [
+  {
+    titulo: "Casa en Lepe",
+    zona: "Lepe · Huelva",
+    precio: "125.000€",
+    descripcion: "Oportunidad off-market con rentabilidad inmediata."
+  }
+];
   const L = links(contactEmail, source);
 
   return (
