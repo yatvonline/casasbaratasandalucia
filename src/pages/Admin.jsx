@@ -20,7 +20,12 @@ const [mensaje, setMensaje] = useState("")
         Añade nuevas oportunidades off-market
       </p>
 
-      <form style={{
+  <form
+onSubmit={(e)=>{
+e.preventDefault()
+setMensaje("✅ Vivienda publicada correctamente")
+}}
+style={{
         display:"flex",
         flexDirection:"column",
         gap:"20px",
