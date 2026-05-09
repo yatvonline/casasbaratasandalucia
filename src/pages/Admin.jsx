@@ -1,4 +1,8 @@
+import { useState } from "react"
+
 export default function Admin() {
+
+const [mensaje, setMensaje] = useState("")
   return (
     <div style={{
       background:"#0b0b0b",
@@ -47,20 +51,27 @@ export default function Admin() {
         <input 
           type="file"
           style={inputStyle}
-        />
-
-        <button style={{
-          background:"#c9784a",
-          border:"none",
-          padding:"18px",
-          borderRadius:"12px",
-          color:"white",
-          fontSize:"18px",
-          cursor:"pointer",
-          fontWeight:"bold"
-        }}>
-          Publicar vivienda
-        </button>
+       {
+mensaje && (
+  <p style={{
+    color:"#6ee7b7",
+    marginTop:"10px",
+    fontWeight:"bold"
+  }}>
+    {mensaje}
+  </p>
+)
+}{
+mensaje && (
+  <p style={{
+    color:"#6ee7b7",
+    marginTop:"10px",
+    fontWeight:"bold"
+  }}>
+    {mensaje}
+  </p>
+)
+}
 
       </form>
     </div>
