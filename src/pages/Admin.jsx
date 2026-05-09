@@ -77,7 +77,21 @@ mensaje && (
   </p>
 )
 }
-
+<button
+  type="submit"
+  style={{
+    background:"#c97a49",
+    color:"white",
+    border:"none",
+    padding:"20px",
+    borderRadius:"14px",
+    fontSize:"32px",
+    fontWeight:"bold",
+    cursor:"pointer"
+  }}
+>
+  Publicar vivienda
+</button>
       </form>
     </div>
   )
