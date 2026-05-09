@@ -617,7 +617,57 @@ const viviendas = [
             </p>
           </div>
         </DialogContent>
-      </Dialog>
+      </Dialog><section style={{
+  padding:"60px 20px",
+  maxWidth:"1200px",
+  margin:"0 auto"
+}}>
+
+  <h2 style={{
+    fontSize:"42px",
+    marginBottom:"40px",
+    color:"white"
+  }}>
+    Últimas oportunidades
+  </h2>
+
+  {viviendas.map((vivienda, index) => (
+    <div
+      key={index}
+      style={{
+        background:"#111",
+        border:"1px solid #333",
+        borderRadius:"20px",
+        padding:"30px",
+        marginBottom:"20px"
+      }}
+    >
+      <h3 style={{fontSize:"30px"}}>
+        {vivienda.titulo}
+      </h3>
+
+      <p style={{opacity:0.7}}>
+        {vivienda.zona}
+      </p>
+
+      <p style={{
+        fontSize:"28px",
+        color:"#c97a49",
+        fontWeight:"bold"
+      }}>
+        {vivienda.precio}
+      </p>
+
+      <p style={{
+        marginTop:"20px",
+        lineHeight:"1.7"
+      }}>
+        {vivienda.descripcion}
+      </p>
+    </div>
+  ))}
+
+</section>
     </main>
   );
 }const adminAccess = () => {
