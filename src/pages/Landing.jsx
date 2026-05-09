@@ -667,7 +667,7 @@ const viviendas = [
     </div>
   ))}
 
-</section><section style={{padding:"40px"}}>
+<section style={{padding:"40px"}}>
 
 <h2 style={{fontSize:"40px",marginBottom:"30px"}}>
 Últimas oportunidades
