@@ -667,6 +667,39 @@ const viviendas = [
     </div>
   ))}
 
+</section><section style={{padding:"40px"}}>
+
+<h2 style={{fontSize:"40px",marginBottom:"30px"}}>
+Últimas oportunidades
+</h2>
+
+<div style={{
+background:"#111",
+padding:"30px",
+borderRadius:"20px",
+border:"1px solid #333"
+}}>
+
+<h3 style={{fontSize:"32px"}}>
+Casa en Lepe
+</h3>
+
+<p>Lepe · Huelva</p>
+
+<p style={{
+fontSize:"28px",
+color:"#c97a49",
+fontWeight:"bold"
+}}>
+125.000€
+</p>
+
+<p>
+Oportunidad off-market con rentabilidad inmediata.
+</p>
+
+</div>
+
 </section>
     </main>
   );
